@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/animal/animal.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah's Favorite Animal</title>
+<link rel="stylesheet" href="./Sarah&#39;s Favorite Animal_files/style.css"></head>
+
+<body>
+    <center>
+        <h1>Sara's Favorite Animal</h1>
+        <table>
+            <tbody><tr>
+                <th>Home</th>
+                <th>Fun Facts</th>
+            </tr>
+            <tr>
+                <td> <img src="./Sarah&#39;s Favorite Animal_files/istockphoto-1277545532-612x612.jpg" alt="" width="250" height="230"></td>
+                <td><p>My name is Sarah, and my favorite animal is the moose. They can be upto 6.5 feet tall and weigh 1200 pounds.
+                Surprisingly, they're really good at swimming!</p><br>
+                <p>If you want to learn more about the Moose,</p>
+                <a href="https://en.wikipedia.org/wiki/Moose">For More Info About Moose Click Here</a>
+                </td>
+            </tr>
+        </tbody></table>
+
+    </center>
+    <h1>Moose are awesome because...</h1>
+    <ol type="1">
+        <li>They can swim really well.</li>
+        <li>They can make really funny noises</li>
+        <li>They can close their nostrils</li>
+    </ol>
+    <h1>If I were a Moose, I would...</h1>
+    <ul style="list-style: disc;">
+        <li>Eat lots of lettuce</li>
+        <li>Carry little animals on my antlers</li>
+        <li>Swim to Alaska</li>
+    </ul>
+
+    <h1>Moose Video</h1>
+    <iframe width="560" height="315" src="./Sarah&#39;s Favorite Animal_files/F3yse7vTWrw.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
